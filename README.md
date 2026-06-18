@@ -40,7 +40,7 @@ templates** run unchanged.
 ## Install
 
 ```bash
-go get github.com/kardec/ejs4go
+go get github.com/elioria/ejs4go
 ```
 
 Requires Go 1.21+ (uses `map[string]any`).
@@ -74,7 +74,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/kardec/ejs4go"
+	"github.com/elioria/ejs4go"
 )
 
 func main() {
@@ -356,7 +356,7 @@ You can inspect the generated JavaScript with `Template.Source()`.
 
 ```bash
 go test ./...                                          # all tests
-go test -coverpkg=github.com/kardec/ejs4go ./...       # engine coverage
+go test -coverpkg=github.com/elioria/ejs4go ./...       # engine coverage
 ```
 
 The suite covers every EJS capability at both the unit level and through the
